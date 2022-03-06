@@ -1,0 +1,11 @@
+
+{%  load static  %}
+<link rel="stylesheet" href="{% static 'css/mystyle.css' %}">
+<div class="topnav">
+  <a href="#news">Employee Record Management System</a>
+  <a class="active" href="#home">Home</a>
+  <a href="{% url 'registration' %}">Employee Signup</a>
+  <a href="{% url 'emp_login' %}">Employee Login</a>
+  <a href="#about">Admin Login</a>
+
+</div>
